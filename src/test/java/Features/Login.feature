@@ -7,7 +7,6 @@ Feature: Login Functionality
     And the user enters password <password>
     And the user clicks the login submit button
     Then the user should be logged in successfully
-    And the user should be redirected to the learning materials page
 
     Examples:
       | email               | password     |

@@ -51,8 +51,4 @@ public class loginSteps {
 
     }
 
-    @And("the user should be redirected to the learning materials page")
-    public void the_user_should_be_redirected_to_the_learning_materials_page() {
-        driver.quit();
-    }
 }
