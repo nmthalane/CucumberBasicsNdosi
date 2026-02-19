@@ -1,9 +1,11 @@
 @Smoke
-Feature: Login Functionality
+Feature: Home page check
   As a registered user of Ndosi Test Automation  I want to login to the application  So that I can access learning materials
 
-  Scenario Outline: Successful login with valid credentials
+  Background:
     Given the user is on the login page
+
+  Scenario Outline: Verify home page
     When the user enters email <email>
     And the user enters password <password>
     And the user clicks the login submit button
